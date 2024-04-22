@@ -1,0 +1,64 @@
+*{
+
+    font-family: "Arial", sans-serif; 
+  }
+  
+  .frontTitle{
+      background-color: #0097b2;
+      justify-content: center;
+      padding: 1rem;
+      font-size: 50px;
+      align-items: center;
+      display: flex;
+      color: white;
+  }
+
+.titleField{
+    font-weight: bold;
+}
+
+.contentField{
+    border-bottom: 1px solid black;
+    padding: 3px;
+}
+
+.contentFieldDate{
+    border: 1px solid black;
+    padding: 3px;
+
+}
+
+.container {
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    background-size: cover;
+    justify-content: center;
+    max-width: 500px;
+    align-content: center;
+    margin: 0 auto;
+    padding-top: 100px;
+    row-gap: 3rem;
+}
+
+.input{
+    padding: 0.5rem;
+    border: 1px solid lightgray;
+    width: 300px;
+    outline: none;
+}
+
+.button{
+    background-color: #0097b2;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.mainContainer{
+    display: grid;
+    gap: 5rem;
+    justify-content: space-around;
+}

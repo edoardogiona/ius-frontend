@@ -1,0 +1,134 @@
+*{
+
+  font-family: "Arial", sans-serif; 
+  font-size: 14px;
+
+}
+
+
+.textarea {
+    padding: 0.5rem;
+    border: 2px solid lightgray;
+}
+
+
+.container {
+  flex-direction: column;
+  align-items: center;
+  width: 700px; /* Largeur de votre conteneur */
+  height: 500px; /* Hauteur de votre conteneur */
+  margin: auto; /* Centre le conteneur horizontalement */
+  margin-top: 70px;
+  border: 3px solid black; /* Bordure noire de 1 pixel */
+  padding: 10px; 
+
+}
+.type {
+  padding: 0.5rem;
+  border: 2px solid lightgray;
+  width: 150px;
+  margin-bottom: 20px;
+  margin-top: -90px;
+  margin-left: 1200px;
+  border-radius: 8px; /* Ajoute des bords arrondis */
+
+
+}
+
+.datePicker {
+    padding: 0.5rem;
+    border: 2px solid lightgray;
+    border: 0px solid;
+    background-color: transparent;
+}
+
+.dateContainer{
+    background-color: white;
+    border: 2px solid lightgray;
+    padding: 0.1rem;
+}
+
+  .title {
+    font-size: 24px;
+    display: flex;
+    justify-content: center; /* Pour centrer horizontalement */
+    text-decoration: underline;
+    align-items: flex-start; /* Pour centrer verticalement en haut */
+    margin-top: 45px; /* Pour le déplacer légèrement vers le haut */
+  }
+
+  .header {
+    color: black; /* Couleur du texte blanc ou adaptée à vos besoins */
+  font-size: 30px;
+  text-align: center; /* Centre le texte dans le conteneur */
+  }
+
+  .header2 {
+    color: white; /* Couleur du texte blanc ou adaptée à vos besoins */
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+  }
+ 
+
+.input{
+    padding: 0.5rem;
+    border: 2px solid lightgray;
+    width: 418px;
+    margin-bottom: 35px;
+    display: block; /* Change l'affichage en bloc pour pouvoir utiliser les marges auto */
+    margin-left: 150px; /* Centre l'élément par rapport à la gauche */
+    border-radius: 8px; /* Ajoute des bords arrondis */
+}
+
+
+.link{
+    display: flex;
+    gap: 2rem;
+    font-size: 13px;
+    
+}
+
+
+.button {
+  background: none;
+  border: 1px solid #000000;
+  background-color: rgb(132, 182, 132);
+  color: black;
+  display: block;
+  height: 40px;
+  width: 130px;
+  font-size: 19px;
+  margin: 10px auto;
+  align-content: center;
+  position: relative;
+  justify-content: space-around;
+  padding-top: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Add box-shadow on hover */
+
+}
+
+.button:hover {
+  background-color: #45a049; /* Hover background color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Add box-shadow on hover */
+}
+
+.tables {
+  width: 80%; /* La table prend la largeur totale du conteneur */
+  border-collapse: collapse;
+  font-size: 15px;
+  margin-left: auto; /* Centre la table par rapport à la gauche */
+  margin-right: auto; /* Centre la table par rapport à la droite */
+}
+
+.tableHeader {
+  font-size: 15px;
+  background-color: #dddddd;
+
+}
+
+.tables th, .tables td {
+  text-align: center; /* Centrer le texte dans les cellules des colonnes */
+  padding: 8px;
+  border: 1px solid #ddd;
+}

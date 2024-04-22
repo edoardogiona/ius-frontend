@@ -1,0 +1,145 @@
+*{
+
+    font-family: "Arial", sans-serif; 
+  }
+  
+  
+  .textarea {
+      padding: 0.5rem;
+      border: 2px solid lightgray;
+  }
+  .searchContainer {
+    position: relative;
+  }
+  
+  .searchIcon {
+    position: absolute;
+    top: 50%;
+    left: 10px; // Ajusta según sea necesario
+    transform: translateY(-50%);
+    color: #555; // Ajusta el color del ícono
+    cursor: pointer; // Cambia el cursor al pasar sobre el ícono
+  }
+  
+  
+  .container {
+    flex-direction: column;
+    display: grid;
+    margin: 0 auto;
+    padding-top: 4rem;
+    row-gap: 2rem;
+    align-items: center;
+    width: 700px;
+  }
+
+  .type {
+    padding: 0.5rem;
+    border: 2px solid lightgray;
+    width: 150px;
+    margin-bottom: 20px;
+    margin-top: -90px;
+    margin-left: 1200px;
+    border-radius: 8px; /* Ajoute des bords arrondis */
+  
+  
+  }
+  
+  .datePicker {
+      padding: 0.5rem;
+      border: 2px solid lightgray;
+      border: 0px solid;
+      background-color: transparent;
+  }
+  
+  .dateContainer{
+      background-color: white;
+      border: 2px solid lightgray;
+      padding: 0.1rem;
+  }
+  
+    .title {
+      font-size: 24px;
+      display: flex;
+      justify-content: center; /* Pour centrer horizontalement */
+      text-decoration: underline;
+      align-items: flex-start; /* Pour centrer verticalement en haut */
+      margin-top: 45px; /* Pour le déplacer légèrement vers le haut */
+    }
+  
+    .header {
+      color: white; /* Couleur du texte blanc ou adaptée à vos besoins */
+      color: black;
+      font-size: 17px;
+      
+    }
+   
+  
+  .input{
+      padding: 0.5rem;
+      padding-left: 30px;
+      padding-right: auto;
+      border: 2px solid lightgray;
+      border-radius: 8px; /* Ajoute des bords arrondis */
+      width: 700px;
+  }
+  
+  
+  .link{
+      display: flex;
+      gap: 2rem;
+      font-size: 13px;
+      
+  }
+  
+  .button:hover {
+    background-color: #45a049; /* Hover background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Add box-shadow on hover */
+  }
+  
+  .tables {
+    width: 80%;
+    border-collapse: collapse;
+    font-size: 15px;
+    margin-left: auto; /* Centre la table par rapport à la gauche */
+    margin-right: auto; /* Centre la table par rapport à la droite */
+  }
+  
+  
+  
+  
+  .tables th, .tables td {
+    text-align: center; /* Centrer le texte dans les cellules des colonnes */
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+
+  .customTable {
+    width: 100%;
+    border-collapse: collapse;
+  
+    td {
+      padding: 10px;
+      text-align: left;
+      border: none;
+      cursor: pointer;
+    }
+
+    th {
+      font-size: 15px;
+      background-color: #cfc9c9;
+      border: none;
+    }
+  
+    td {
+      border: none
+    }
+    tr:nth-child(even) {
+      background-color: #f2f2f2; // Fondo gris para filas pares
+    }
+
+    th:last-child,
+    td:last-child {
+      border-left:  1px solid black;
+    }
+  }
+  

@@ -1,0 +1,138 @@
+*{
+
+  font-family: "Arial", sans-serif; 
+}
+
+
+.containerByTwo {
+    display: flex;
+    padding: 3rem;
+}
+
+.leftContainer {
+    flex: 1; /* Le conteneur de gauche prendra autant d'espace que possible */
+    margin-left: 270px;
+
+  }
+  
+  .rightContainer {
+    flex: 1; /* Le conteneur de droite prendra autant d'espace que possible */
+    margin-left: 130px;
+  }
+
+.textarea {
+    padding: 0.5rem;
+    border: 2px solid lightgray;
+}
+
+.formConatiner {
+    background-color: aliceblue;
+    padding: 3rem;
+    border-radius: 10px;
+    gap: 1rem;
+    display: grid;
+    align-items: center;
+    align-content: center;
+    align-items: center;
+}
+
+
+.datePicker {
+    padding: 0.5rem;
+    border: 2px solid lightgray;
+    border: 0px solid;
+    background-color: transparent;
+}
+
+.dateContainer{
+    background-color: white;
+    border: 2px solid lightgray;
+    padding: 0.1rem;
+}
+
+    
+
+  
+  .frontTitle{
+      background-color: orange;
+      justify-content: center;
+      padding: 1rem;
+      font-size: 50px;
+      align-items: center;
+      display: flex;
+      color: white;
+  }
+  
+ /* .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+      background-size: cover;
+      background-position: center; 
+      height: 100vh; 
+      display: flex;
+      justify-content: center;
+      align-content: center;
+  } */
+  
+  .title {
+    font-size: 24px;
+    display: flex;
+    justify-content: center; /* Pour centrer horizontalement */
+    text-decoration: underline;
+    align-items: flex-start; /* Pour centrer verticalement en haut */
+    margin-top: 45px; /* Pour le déplacer légèrement vers le haut */
+  }
+
+  .header {
+    color: white; /* Couleur du texte blanc ou adaptée à vos besoins */
+    color: black;
+    font-size: 17px;
+    
+  }
+
+
+
+ 
+
+.input{
+    padding: 0.5rem;
+    border: 2px solid lightgray;
+    width: 300px;
+    margin-bottom: 20px;
+}
+.link{
+    display: flex;
+    gap: 2rem;
+    font-size: 13px;
+    
+}
+
+
+.buttonTopRight {
+    background: none;
+    border: 2px solid #000000;
+    background-color: rgb(132, 182, 132);    color: black;
+    display: block;
+    font-size: 1.6em;
+    height: 40px;
+    width: 130px;
+    font-size: 19px;
+    margin: 10px auto;
+    align-content: center;
+    position: absolute;
+    top: 90px;
+    right: 30px;
+    justify-content: space-around;
+    padding-top: 0.5rem;
+}
+
+.buttonTopRight:hover {
+    background-color: #45a049; /* Hover background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Add box-shadow on hover */
+  }
+
+
+
+

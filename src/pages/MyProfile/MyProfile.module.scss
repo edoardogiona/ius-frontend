@@ -1,0 +1,75 @@
+*{
+
+    font-family: "Arial", sans-serif; 
+  }
+
+.link{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around;
+    color: black;
+}
+  
+  .frontTitle{
+      background-color: #0097b2;
+      justify-content: center;
+      padding: 1rem;
+      font-size: 50px;
+      align-items: center;
+      display: flex;
+      color: white;
+  }
+
+.titleField{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.contentField{
+    border-bottom: 1px solid black;
+    padding: 3px;
+    font-size: 20px;
+
+}
+
+.contentFieldDate{
+    border: 1px solid black;
+    padding: 3px;
+
+}
+
+.container {
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    background-size: cover;
+    justify-content: center;
+  //  max-width: 500px;
+    align-content: center;
+    margin: 0 auto;
+    padding-top: 100px;
+    row-gap: 3rem;
+    column-gap: 3rem;
+}
+
+.button{
+    background-color: #0097b2;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.logoutContainer{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    gap: 1rem;
+}
+
+.mainCointainer{
+    display: grid;
+    gap: 2rem;
+    justify-content: space-around;
+}

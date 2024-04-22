@@ -1,0 +1,15 @@
+.title {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    align-items: flex-start;
+    margin-top: 45px;
+}
+.candidatesContainer{
+   justify-content: space-around;
+    align-content: center;
+    padding-top: 3rem;
+    display: grid;
+    row-gap: 2rem;
+}

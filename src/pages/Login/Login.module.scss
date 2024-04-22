@@ -1,0 +1,171 @@
+*{
+
+  font-family: "Arial", sans-serif; 
+}
+
+.frontTitle{
+  background-color: #0097b2;
+    justify-content: center;
+    padding: 1rem;
+    font-size: 50px;
+    align-items: center;
+    display: flex;
+    color: white;
+}
+
+.logoTitle{
+  background-color: #0097b2;
+    justify-content: left;
+    padding: 1rem;
+    font-size: 40px;
+    align-items: center;
+    display: flex;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 800px;
+    background-size: cover; /* Hace que la imagen cubra toda la pantalla */
+    background-position: center; /* Centra la imagen en la pantalla */
+    height: 100vh; /* Establece la altura al 100% de la ventana */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.formConatiner {
+    background-color: aliceblue;
+    padding: 3rem;
+    border-radius: 10px;
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.datePicker {
+    padding: 0.5rem;
+    border: 2px solid lightgray;
+    border: 0px solid;
+    background-color: transparent;
+}
+
+.dateContainer{
+    background-color: white;
+    border: 2px solid lightgray;
+    padding: 0.1rem;
+}
+
+    
+
+  
+  .frontTitle{
+    background-color: #0097b2;
+      justify-content: center;
+      padding: 1rem;
+      font-size: 50px;
+      align-items: center;
+      display: flex;
+      color: white;
+  }
+
+  
+  .title {
+    font-weight: bold; /* Hace que el texto sea negrita */
+    font-size: 24px;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+  .formConatiner {
+    background-color: aliceblue;
+    padding: 3rem;
+    border-radius: 10px;
+    gap: 1rem;
+    display: grid;
+    align-items: center;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;  
+  }
+
+.input{
+    padding: 0.5rem;
+    border: 2px solid lightgray;
+    width: 300px;
+}
+
+
+.link{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around;
+}
+
+.header3{
+    justify-content: left;
+    padding: 1rem;
+    font-size: 15px;
+    align-items: center;
+    display: flex;
+    color: black;
+    display: block;
+    height: 40px;
+    width: 130px;
+    font-size: 19px;
+    margin: 10px auto;
+    align-content: center;
+    align-items: center;
+    max-width: 700px;
+}
+
+.button{
+  background-color: #0097b2;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.button{
+  background-color: #0097b2;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+} 
+
+.tables {
+    max-height: 300px; /* Set the maximum height for the container */
+    overflow-y: scroll; /* Enable vertical scrolling when content overflows the container */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+
+.tableHeader {
+    background-color: rgb(155, 154, 154); /* Couleur de fond gris foncé */
+    color: white; /* Couleur du texte blanc ou adaptée à vos besoins */
+    font-weight: bold; /* Texte en gras */
+    color: black;
+    
+  }
+

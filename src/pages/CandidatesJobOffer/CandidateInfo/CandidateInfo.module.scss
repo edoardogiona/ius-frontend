@@ -1,0 +1,52 @@
+
+.container{
+    width: 700px;
+    height: 190px;
+    border: 1px solid gray;
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    flex-direction: column;
+    border-radius: 1rem;
+}
+
+.profileImage {
+    width: 125px; 
+    height: 125px; 
+    object-fit: cover; 
+}
+
+.candidateInfo{
+    font-size:large;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem
+}
+
+.candidateName{
+    font-size:large;
+    font-weight: bold;
+}
+
+.buttonSelect{
+    width: 670px;
+    border: none;
+    background-color: #66e573;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 1rem;
+
+    margin-left: 1rem;
+}
+
+.download{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem
+}
+
+.candidateInfoContainer{
+    margin: 1rem;
+    display: flex;
+    gap: 2rem;
+}

@@ -1,0 +1,96 @@
+*{
+
+  font-family: "Arial", sans-serif; 
+}
+
+
+.textarea {
+    padding: 0.5rem;
+    border: 2px solid lightgray;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh; /* Establece la altura al 100% de la ventana */
+  margin-top: 70px;
+
+}
+
+.datePicker {
+    padding: 0.5rem;
+    border: 2px solid lightgray;
+    border: 0px solid;
+    background-color: transparent;
+
+}
+
+.error{
+  color: red;
+}
+
+.dateContainer{
+    background-color: white;
+    border: 2px solid lightgray;
+    padding: 0.1rem;
+    margin-top: 1rem;
+}
+
+  .title {
+    font-size: 24px;
+    display: flex;
+    justify-content: center; /* Pour centrer horizontalement */
+    text-decoration: underline;
+    align-items: flex-start; /* Pour centrer verticalement en haut */
+    margin-top: 45px; /* Pour le déplacer légèrement vers le haut */
+    padding-bottom: 1rem;
+  }
+
+  .header {
+    color: white; /* Couleur du texte blanc ou adaptée à vos besoins */
+    color: black;
+    font-size: 17px;
+    
+  }
+ 
+
+.input{
+    padding: 0.5rem;
+    border: 2px solid lightgray;
+    width: 418px;
+    margin-bottom: 20px;
+}
+.link{
+    display: flex;
+    gap: 2rem;
+    font-size: 13px;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    justify-content: center;
+}
+
+
+.button {
+  background: none;
+  border: 1px solid #ffffff;
+  background-color: #0097b2;
+  color: white;
+  display: block;
+  height: 40px;
+  width: 130px;
+  font-size: 19px;
+  margin: 10px auto;
+  align-content: center;
+  position: relative;
+  justify-content: space-around;
+  padding-top: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Add box-shadow on hover */
+
+}
+
+.button:hover {
+  background-color: #00B5B2; /* Hover background color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Add box-shadow on hover */
+}

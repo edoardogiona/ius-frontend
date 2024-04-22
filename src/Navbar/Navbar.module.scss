@@ -1,0 +1,68 @@
+$orange: #0097b2;
+
+.NavbarItems {
+    background-color: #0097b2;
+    align-items: center;
+    display: flex;
+    justify-content: right;
+    padding: 0rem;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    height: 80px;
+
+  h1 {
+    color: white;
+    padding: 1rem;
+    font-size: 40px;
+  }
+}
+
+.activeLink {
+  text-decoration: underline !important;
+  font-weight: bold;
+}
+
+.logo {
+  color: black;
+  text-align: left;
+}
+
+.navbar-ul {
+  width: 80%;
+  float: left;
+  list-style: none;
+  margin: 0px;
+  padding: 0;
+
+  li {
+    display: inline;
+    list-style: none;
+    font-size: 18px;
+    padding: 10px;
+    line-height: 80px;
+
+    .nav-links,
+    .nav-links-mobile {
+      color: white;
+      text-decoration: none;
+    }
+
+    &:hover {
+      background-color: white;
+
+      .nav-links,
+      .nav-links-mobile {
+        color: black;
+      }
+    }
+  }
+}
+
+li {
+  display: inline;
+  list-style: none;
+  font-size: 18px;
+  padding: 10px;
+  line-height: 80px;
+}
